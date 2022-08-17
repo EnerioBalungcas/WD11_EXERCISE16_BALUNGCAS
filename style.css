@@ -1,0 +1,205 @@
+body{
+    background-color:#02025F;
+    animation-name: AnimateBG;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+    animation-direction:alternate;
+    width: 100%;
+    justify-content: center;
+    background-size: 200% 200%;
+    background-image:linear-gradient(
+        -45deg, 
+        #2b0242 0%,
+        #2b0242 15%,
+        /* blueviolet 25%, */
+        rgba(87,111,230,1) 50%,
+        /* orange 0%, */
+        /* darkred 50%, */
+        rgba(255,53,127,1) 100%
+  );  
+  
+}
+
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%;}
+  25%{background-position:25% 50%;}
+  50%{background-position:50% 50;}
+  75%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+
+
+/* 
+@keyframes color {
+  0%   { background: darkblue;}
+  10%   { background: blueviolet;}
+  20%   { background: skyblue;}
+  30%   { background: lightblue;}
+  40%   { background: lightgreen;}
+  50%   { background: yellowgreen;}
+  60%   { background: green;}
+  70%   { background: darkgrey;}
+  80%   { background: plum;}
+  90%   { background: violet;}
+  100%   { background: purple;}
+  
+} */
+
+.banner{
+    background-image:linear-gradient(to bottom, #E1E1E1, #E19004,#02025F);
+    padding: 4px 0 10px;
+}
+.faIcons{
+    font-size: 40px;
+    align-items: center;
+}
+.faIconsAnimation{
+    font-size: 15px;
+    align-items: center;
+}
+.nothingPermanent{
+    height: 40px;
+    width: 65%;
+}
+.exceptChange{
+    height: 40px;
+    width: 65%;
+}
+
+.container h1{
+  color: white;
+  text-align: center;
+  /* align-content: center; */
+  margin-top: 20px;
+  font:bolder;
+  font-size: 48pt;
+  font-weight: 500;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.card{
+    box-shadow: 10px 10px 5px 2px rgba(255, 140, 2, 1);
+    overflow:visible;
+    border-radius:15px;
+    max-width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+}
+  .card-body-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14pt;
+    font-style: italic;
+  }
+.cardBorder{
+    border-radius: 10px;
+}
+.convertFrom{
+  font-size: 12pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  color:darkblue;
+  font:bold;
+  text-align: right;
+
+}
+.convertTo{
+  font-size: 12pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  color:darkblue;
+  font:bold;
+  text-align: right;
+ 
+}
+.fromInputText{
+  font:bolder;
+  font-size: 14pt;
+  max-width: 150px;
+  text-align: center;
+}
+.toInputText{
+  font:bolder;
+  font-size: 12pt;
+  max-width: 150px;
+  text-align: center;
+}
+
+.card-footer{
+  font-style: italic;
+  text-align: right;
+  vertical-align: bottom;
+}
+.socials{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom:10px;
+    padding-top: 200px;
+    
+}
+.socials i{
+    font-size: 20px;
+    color:white;
+    padding: 0 10px;
+}
+
+.faSun {
+    /* width: 100px;
+    height: 100px;
+    background-color: red; */
+    position: relative;
+    animation-name: Sun;
+    animation-duration: 15s;
+    /* --fa-animation-duration: 5s; */
+    animation-iteration-count: 2;
+    animation-delay: 6s;
+    /* animation-direction: alternate;   */
+  }
+  .faMoon {
+    /* width: 100px;
+    height: 100px;
+    background-color: blue; */
+    position: relative;
+    animation-name: Moon;
+    animation-duration: 15s;
+    animation-iteration-count: 2;
+    animation-delay: 5s;
+    /* animation-direction: alternate;   */
+  }
+  .faEarth {
+    /* width: 100px;
+    height: 100px;
+    background-color: blue; */
+    position: relative;
+    animation-name: Earth;
+    animation-duration: 15s;
+    animation-iteration-count: 2;
+    animation-delay: 4s;
+    /* animation-direction: alternate;   */
+  }
+  .faStar {
+    /* width: 100px;
+    height: 100px;
+    background-color: blue; */
+    position: relative;
+    animation-name: Star;
+    animation-duration: 15s;
+    animation-iteration-count: 2;
+    animation-delay: 3s;
+    /* animation-direction: alternate;   */
+  }
+  .faPlane {
+    /* width: 100px;
+    height: 100px;
+    background-color: blue; */
+    position: relative;
+    animation-name: Plane;
+    animation-duration: 15s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+   /*  animation-direction: alternate;   */
+  }
